@@ -8,7 +8,7 @@ const NavBar = () => {
       <img src={Logo} alt="logo for blank" className='w-24 '/>
 
       <div>
-        <ul className='flex gap-2'>
+        <ul className='flex gap-5'>
             <li>Product</li>
             <li>Use Case</li>
             <li>Integration</li>
@@ -18,9 +18,9 @@ const NavBar = () => {
       </div>
 
 
-      <div className='flex items-center' >
+      <div className='flex items-center gap-5 ' >
         <button>Sign In</button>
-        <button>Try Starter for free</button>
+        <button className='bg-black text-white px-6 py-2 rounded-lg'>Try Starter for free</button>
       </div>
     </div>
   )
