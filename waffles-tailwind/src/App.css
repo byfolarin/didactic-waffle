@@ -2,3 +2,8 @@
     padding: 24px;
     background-color: #F6F6F6;
 }
+
+#border-dropdown{
+    background-color: #f4f4f4;
+    border: 1px solid white;
+}
