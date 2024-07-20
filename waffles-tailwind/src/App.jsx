@@ -7,7 +7,7 @@ function App() {
   return (
     <div className='mx-32 '>
      <NavBar />
-        
+        <Dropdown />
            
       <div className='text-center py-24'>
       <h1 className='text-7xl font-semibold tracking-tight ' >The core infrastructure <br /> enabling your operations</h1>
