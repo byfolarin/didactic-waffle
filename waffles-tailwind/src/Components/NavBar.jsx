@@ -1,9 +1,10 @@
 import React from 'react'
 import Logo from '../assets/Blank.png'
+import Dropdown from './Dropdown'
 
 const NavBar = () => {
   return (
-    <div className='flex items-center justify-between'>
+    <div className='flex items-center justify-between relative'>
 
       <img src={Logo} alt="logo for blank" className='w-20 '/>
 
