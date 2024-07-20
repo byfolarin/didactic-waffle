@@ -37,7 +37,7 @@ const Dropdown = () => {
   <div className='flex gap-2 py-4 '>
           <div className="div-icons w-12 h-12 rounded-lg bg-black"></div>
           <div>
-          <div className='font-medium'>Customizable CRM</div>
+          <div className='font-medium'>Unified Data Management</div>
           <p className='text-gray-700'>Centralize your essential data <br /> and systems.</p>
           </div>
     </div>
@@ -45,7 +45,7 @@ const Dropdown = () => {
     <div className='flex gap-2 py-4 '>
           <div className="div-icons w-12 h-12 rounded-lg bg-black"></div>
           <div>
-          <div className='font-medium'>Customer Portal</div>
+          <div className='font-medium'>Process Tracker</div>
           <p className=''>Delight your customers with self <br/> service experience..</p>
           </div>
     </div>
@@ -53,7 +53,7 @@ const Dropdown = () => {
     <div className='flex gap-2 py-4 '>
           <div className="div-icons w-12 h-12 rounded-lg bg-black"></div>
           <div>
-          <div className='font-medium'>Streamlining processes</div>
+          <div className='font-medium'>Partner Portal</div>
           <p className='text-gray-700'>Unleash the power of organized <br/> knowledge.</p>
           </div>
     </div>
@@ -64,7 +64,7 @@ const Dropdown = () => {
   <div className='flex gap-2 py-4 '>
           <div className="div-icons w-12 h-12 rounded-lg bg-black"></div>
           <div>
-          <div className='font-medium'>Customizable CRM</div>
+          <div className='font-medium'>Integrations and Automations</div>
           <p className='text-gray-700'>Centralize your essential data <br /> and systems.</p>
           </div>
     </div>
@@ -72,7 +72,7 @@ const Dropdown = () => {
     <div className='flex gap-2 py-4 '>
           <div className="div-icons w-12 h-12 rounded-lg bg-black"></div>
           <div>
-          <div className='font-medium'>Customer Portal</div>
+          <div className='font-medium'>Database</div>
           <p className=''>Delight your customers with self <br/> service experience..</p>
           </div>
     </div>
@@ -80,7 +80,7 @@ const Dropdown = () => {
     <div className='flex gap-2 py-4 '>
           <div className="div-icons w-12 h-12 rounded-lg bg-black"></div>
           <div>
-          <div className='font-medium'>Streamlining processes</div>
+          <div className='font-medium'>Collaboration</div>
           <p className='text-gray-700'>Unleash the power of organized <br/> knowledge.</p>
           </div>
     </div>
