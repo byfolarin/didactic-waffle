@@ -1,5 +1,9 @@
 #root{
     padding: 24px;
+}
+
+body{
+    margin: 0;
     background-color: #F6F6F6;
 }
 

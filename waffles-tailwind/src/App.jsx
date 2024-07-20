@@ -9,7 +9,7 @@ function App() {
   return (
     <div className='mx-32 '>
 
-    <div className="flex h-vh w-full " >
+    <div className="flex  w-full " >
     <img src={Mesh} className='absolute top-0 bottom-0 left-0 right-0' alt="" />
     </div>
   
