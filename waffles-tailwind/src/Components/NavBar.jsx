@@ -14,7 +14,7 @@ const NavBar = () => {
             <li className='cursor-pointer'>Use Case</li>
             <li className='cursor-pointer'>Integration</li>
             <li className='cursor-pointer'>Resources</li>
-            <li className='cursor-pointer'>Pricing</li>
+            {/* <li className='cursor-pointer'>Pricing</li> */}
         </ul>
       </div>
 
