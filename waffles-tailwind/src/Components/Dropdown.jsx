@@ -13,7 +13,7 @@ const Dropdown = () => {
                         <div className='font-medium'>Customizable CRM</div>
                         <p className='text-gray-700'>Centralize your essential data <br /> and systems.</p>
                         </div>
-                    </div>
+                </div>
 
                     <div className='flex gap-2 py-4 '>
                         <div className="div-icons w-12 h-12 rounded-lg bg-black"></div>
