@@ -2,9 +2,9 @@ import React from 'react'
 
 const ImgSection = () => {
   return (
-    <>
-     <div className='w-full h-11 m-11 bg-slate-300 '></div> 
-    </>
+    <div>
+     <div className='w-full h-36 my-11 relative bg-slate-300 '></div> 
+    </div>
   )
 }
 
