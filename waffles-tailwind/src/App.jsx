@@ -19,15 +19,15 @@ function App() {
     <ImgSection/>
 
 
-    <div className='mt-24 flex'>
-      <h2 className='font-sans font-semibold text-5xl w-3/5'>Made for Infrastructure<br/>Development</h2>
+    <div className='mt-24'>
+      <h2 className='font-sans font-semibold text-5xl w-3/5 py-6'>Made for Infrastructure<br/>Development</h2>
       <p className='w-2/4'>Align your team around a unified product timeline. Plan, manage, and track all product initiatives with Linear’s visual planning tools</p>
     </div>
 
     <div className='relative w-full'>
     <div className='size-24  w-full absolute top-0 right-0'>
-      
-      <img src={HiDef} alt="" className='w-128'/>
+      <div className='bg-gradient-to-t absolute from-[#f6f6f6a7] to-transparent w-full h-screen'></div>
+      <img src={HiDef} alt="" className='w-128 bottom-0'/>
     </div>
     </div>
 
