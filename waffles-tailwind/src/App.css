@@ -13,16 +13,19 @@ body{
 }
 
 .card{
-    height: 400px;
+    width: 452px;
 }
-
 
 .first{
     display: flex;
     align-items:flex-end ;
 }
 
-
+.set-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .third{
     display: flex;
