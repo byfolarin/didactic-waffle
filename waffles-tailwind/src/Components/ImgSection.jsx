@@ -14,7 +14,7 @@ const ImgSection = () => {
           </div>
 
           <div className='card second w-1/3 bg-gray-200'>
-             <img src={dash2} alt="" />
+             <img src={dash2} alt="" class="object-contain" />
           </div>
 
           <div className='card third w-1/3  bg-gray-200'>

@@ -16,7 +16,6 @@ function App() {
     <NavBar />
     <H1comp />
     <ImgSection/>
-    <H1comp />
     </div>
   
            

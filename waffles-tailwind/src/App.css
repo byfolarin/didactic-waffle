@@ -11,14 +11,18 @@ body{
     background-color: #f4f4f4;
     border: 1px solid white;
 }
+
+.card{
+    height: 400px;
+}
+
+
 .first{
     display: flex;
     align-items:flex-end ;
 }
 
-.second img{
-    width: 3200px;
-}
+
 
 .third{
     display: flex;
