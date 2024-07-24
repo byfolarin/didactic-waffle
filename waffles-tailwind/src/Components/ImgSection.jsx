@@ -18,7 +18,7 @@ const ImgSection = () => {
           </div>
 
           <div className='card third w-1/3  bg-gray-200'>
-             <img className='w-42 p-4 ' src={dash3} alt="" />
+             <img src={dash3} alt="" />
           </div>
 
     </div> 

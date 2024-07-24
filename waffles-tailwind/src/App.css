@@ -17,7 +17,17 @@ body{
 }
 
 .second img{
-    width: 100%;
+    width: 3200px;
+}
+
+.third{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.third img{
+    width: 250px;
 }
 
 .first img{
