@@ -11,3 +11,15 @@ body{
     background-color: #f4f4f4;
     border: 1px solid white;
 }
+.first{
+    display: flex;
+    align-items:flex-end ;
+}
+
+.second img{
+    width: 100%;
+}
+
+.first img{
+    width: 264px;
+}
