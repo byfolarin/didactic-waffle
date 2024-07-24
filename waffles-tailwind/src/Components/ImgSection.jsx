@@ -19,18 +19,18 @@ const ImgSection = () => {
 
                     <div  className='set-card bg-white flex absolute align-middle bottom-0 justify-center px-2'>
 
-                      <div className='bg-black w-12 h-12'></div>
+                      <div className='bg-black size-16'></div>
 
                         <div className='flex flex-col align-bottom justify-center py-6 p-2'>
-                            <p>Shipping Order all in a single CRM</p>
-                            <p>Centralize your essential data and systems.</p>
+                            <p >Shipping Order all in a single CRM</p>
+                            <p className='font-sans size-1'>Centralize your essential data and systems.</p>
                         </div>
 
                     </div>
 
                 </div>
 
-                 <img src={dash2} alt=""  class="object-contain w-128" />
+                 <img src={dash2} alt=""  class="object-cover w-128" />
 
           </div>
 
