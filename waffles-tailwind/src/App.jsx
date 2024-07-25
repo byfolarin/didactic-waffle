@@ -3,7 +3,7 @@ import NavBar from './Components/NavBar'
 import Mesh from './assets/Mesh.png'
 import H1comp from './Components/H1comp'
 import ImgSection from './Components/ImgSection'
-import HiDef from './assets/Group 5791.png'
+import FirstSection from './Components/FirstSection'
 
 
 
@@ -14,25 +14,16 @@ function App() {
     <div className="flex  w-full " >
     <img src={Mesh} className='absolute top-0 bottom-0 left-0 right-0' alt="" />
     </div>
-    <NavBar />
-    <H1comp />
+    <NavBar/>
+    <H1comp/>
     <ImgSection/>
+    <FirstSection />
 
-
-    <div className='mt-24'>
-      <h2 className='font-sans font-semibold text-5xl w-3/5 py-6'>Made for Infrastructure<br/>Development</h2>
-      <p className='w-2/4'>Align your team around a unified product timeline. Plan, manage, and track all product initiatives with Linear’s visual planning tools</p>
-    </div>
-
-    <div className='w-full'>
-    <div className='relative'>
-      <div className='bg-gradient-to-t left-0 top-0 absolute from-[#f6f6f690] to-transparent w-full h-full'></div>
-      <img src={HiDef} alt=""  className='w-128'/>
-    </div>
-    </div>
+  
 
 
     </div>
+
   
            
     
