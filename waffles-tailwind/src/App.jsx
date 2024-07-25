@@ -7,6 +7,7 @@ import FirstSection from './Components/FirstSection'
 import SecondSection from './Components/SecondSection'
 import ThirdSection from './Components/ThirdSection'
 import FourthSection from './Components/FourthSection'
+import FifthSection from './Components/FifthSection'
 
 
 
@@ -25,7 +26,7 @@ function App() {
     <SecondSection/>
     <ThirdSection />
     <FourthSection />
-    <FirstSection />
+    <FifthSection />
 
     
 
