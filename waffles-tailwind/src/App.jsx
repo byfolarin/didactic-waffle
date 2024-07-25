@@ -4,6 +4,7 @@ import Mesh from './assets/Mesh.png'
 import H1comp from './Components/H1comp'
 import ImgSection from './Components/ImgSection'
 import FirstSection from './Components/FirstSection'
+import SecondSection from './Components/SecondSection'
 
 
 
@@ -18,10 +19,7 @@ function App() {
     <H1comp/>
     <ImgSection/>
     <FirstSection />
-
-  
-
-
+    <SecondSection/>
     </div>
 
   
