@@ -25,9 +25,9 @@ function App() {
     </div>
 
     <div className='relative w-full'>
-    <div className='size-24  w-full absolute top-0 right-0'>
-      <div className='bg-gradient-to-t absolute from-[#f6f6f6a7] to-transparent w-full h-screen'></div>
-      <img src={HiDef} alt="" className='w-128 bottom-0'/>
+    <div className='size-24  w-full top-0 right-0 border-red-600'>
+      <div className='bg-gradient-to-t left-0 top-0 absolute from-[#f6f6f690] to-transparent w-full h-full border-red-600'></div>
+      <img src={HiDef} alt=""  className='w-128 bottom-24 '/>
     </div>
     </div>
 
