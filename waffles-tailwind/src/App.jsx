@@ -6,6 +6,7 @@ import ImgSection from './Components/ImgSection'
 import FirstSection from './Components/FirstSection'
 import SecondSection from './Components/SecondSection'
 import ThirdSection from './Components/ThirdSection'
+import FourthSection from './Components/FourthSection'
 
 
 
@@ -23,27 +24,8 @@ function App() {
     <FirstSection />
     <SecondSection/>
     <ThirdSection />
-
-
-
-
-    <div className='flex'>
-
-        <div className='w-full h-full border border-gray-200 py-4 px-6'>
-            <h2 className='font-semibold'>Build momentum with Cycles</h2>
-            <p>Create healthy routines and focus your team on what work should happen next.</p>
-
-            <div className='bg-slate-200 mt-8 w-full h-64'></div>
-        </div>
-
-        <div className='w-full h-full border  border-gray-200 py-4 px-6'>
-            <h2 className='font-semibold'>Build momentum with Cycles</h2>
-            <p>Create healthy routines and focus your team on what work should happen next.</p>
-
-            <div className='bg-slate-200 mt-8 w-full h-64'></div>
-        </div>
-
-    </div>
+    <FourthSection />
+    <FirstSection />
 
     
 
