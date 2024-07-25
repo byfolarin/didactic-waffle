@@ -24,10 +24,10 @@ function App() {
       <p className='w-2/4'>Align your team around a unified product timeline. Plan, manage, and track all product initiatives with Linear’s visual planning tools</p>
     </div>
 
-    <div className='relative w-full'>
-    <div className='size-24  w-full top-0 right-0 border-red-600'>
-      <div className='bg-gradient-to-t left-0 top-0 absolute from-[#f6f6f690] to-transparent w-full h-full border-red-600'></div>
-      <img src={HiDef} alt=""  className='w-128 bottom-24 '/>
+    <div className='w-full'>
+    <div className='relative'>
+      <div className='bg-gradient-to-t left-0 top-0 absolute from-[#f6f6f690] to-transparent w-full h-full'></div>
+      <img src={HiDef} alt=""  className='w-128'/>
     </div>
     </div>
 

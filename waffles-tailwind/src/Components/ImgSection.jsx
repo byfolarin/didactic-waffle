@@ -23,7 +23,7 @@ const ImgSection = () => {
             <div className='set-card rounded-lg bg-white flex items-center w-full px-5'>
               <div className='bg-black rounded-lg size-12 flex-shrink-0'>
                 <img className='size-9 my-1 mx-auto'  src={Stack} alt="" />
-              </div>
+              </div >
 
               <div className='flex flex-col justify-center py-6 p-2 flex-grow'>
                 <p className='text-sm font-semibold'>Shipping Order all in a single CRM</p>
