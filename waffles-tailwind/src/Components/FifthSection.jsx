@@ -16,7 +16,7 @@ const FifthSection = () => {
             <p className='w-2/4'>Align your team around a unified product timeline. Plan, manage, and track all product initiatives with Linear’s visual planning tools</p>
             </div>
 
-            <div className='grid grid-cols-3 mt-6'>
+            <div className='grid grid-cols-3 mt-6 gap-2'>
 
                 <div className='w-full h-full border border-gray-200 py-4 px-6'>
                     <h2 className='font-semibold'>Build momentum with Cycles</h2>
