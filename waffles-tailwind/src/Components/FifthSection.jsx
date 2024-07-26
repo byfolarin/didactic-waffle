@@ -39,6 +39,11 @@ const FifthSection = () => {
                     <div className='bg-slate-200 mt-8 w-full h-64'></div>
                 </div>
 
+                
+
+                </div>
+
+                
                 <div className='mt-24'>
 
                 <div className='flex gap-3 items-center'>
@@ -46,12 +51,11 @@ const FifthSection = () => {
                 <p>Project and long term planning</p>
                 </div>
 
-                <h2 className='font-sans font-semibold text-5xl w-3/5 py-6'>Made for Infrastructure<br/>Development</h2>
-                <p className='w-2/4'>Align your team around a unified product timeline. Plan, manage, and track all product initiatives with Linear’s visual planning tools</p>
+                <h2 className='font-sans font-semibold text-5xl py-6'>Works where your team already is</h2>
+                <p>Align your team around a unified product timeline. Plan, manage, and track all product initiatives with Linear’s visual planning tools</p>
                 </div>
-                
 
-                </div>
+                <button className='py-2 px-6 my-6 rounded-lg text-white bg-black'>Request a trial</button>
 
 
 </section>
