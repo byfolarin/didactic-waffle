@@ -2,8 +2,8 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='absolute  mt-8'>
-      <div className='w-full h-[300px] relative inset-x-0 bg-black '></div>
+    <div className='absolute w-full h-[300px] inset-x-0  bg-black mt-8'>
+      
     </div>
    
   )
