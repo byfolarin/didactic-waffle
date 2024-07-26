@@ -22,21 +22,21 @@ const FifthSection = () => {
                     <h2 className='font-semibold'>Build momentum with Cycles</h2>
                     <p>Create healthy routines and focus your team on what work should happen next.</p>
 
-                    <div className='bg-slate-200 mt-8 w-full h-64'></div>
+                    <div className='bg-slate-200 mt-4 w-full h-64'></div>
                 </div>
 
                 <div className='w-full h-full border rounded-lg  border-gray-200 py-4 px-6'>
                     <h2 className='font-semibold'>Build momentum with Cycles</h2>
                     <p>Create healthy routines and focus your team on what work should happen next.</p>
 
-                    <div className='bg-slate-200 mt-8 w-full h-64'></div>
+                    <div className='bg-slate-200 mt-4 w-full h-64'></div>
                 </div>
 
                 <div className='w-full h-full border rounded-lg border-gray-200 py-4 px-6'>
                     <h2 className='font-semibold'>Build momentum with Cycles</h2>
                     <p>Create healthy routines and focus your team on what work should happen next.</p>
 
-                    <div className='bg-slate-200 mt-8 w-full h-64'></div>
+                    <div className='bg-slate-200 mt-4 w-full h-64'></div>
                 </div>
 
                 
@@ -52,7 +52,7 @@ const FifthSection = () => {
                 </div>
 
                 <h2 className='font-sans font-semibold text-5xl py-6'>Works where your team already is</h2>
-                <p>Align your team around a unified product timeline. Plan, manage, and track all product initiatives with Linear’s visual planning tools</p>
+                <p className='w-3/4'>Align your team around a unified product timeline. Plan, manage, and track all product initiatives with Blank’s visual planning tools</p>
                 </div>
 
                 <button className='py-2 px-6 my-6 rounded-lg text-white bg-black'>Request a trial</button>
