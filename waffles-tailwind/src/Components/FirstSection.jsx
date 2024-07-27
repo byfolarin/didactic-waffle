@@ -1,5 +1,5 @@
 import React from 'react'
-import HiDef from '../assets/Group 5791.png'
+import HiDef from '../assets/Group 5791.jpg'
 
 const FirstSection = () => {
   return (
