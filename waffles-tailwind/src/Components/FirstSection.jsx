@@ -7,7 +7,7 @@ const FirstSection = () => {
         <section>
 
 
-                <div className='mt-24 '>
+                <div className='my-16 '>
 
                     <div className='flex gap-3 items-center'>
                     <div className='w-6 h-2 rounded bg-black'></div>
