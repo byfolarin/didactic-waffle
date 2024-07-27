@@ -4,7 +4,7 @@ import Dropdown from './Dropdown'
 
 const NavBar = () => {
   return (
-    <div className='flex items-center justify-between relative'>
+    <div className='flex sm:hidden md:hidden lg:flex  items-center justify-between relative'>
 
       <img src={Logo} alt="logo for blank" className='w-20 '/>
 
