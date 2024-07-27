@@ -8,13 +8,12 @@ import Stack from '../assets/Stacks.png'
 const ImgSection = () => {
   return (
     <div>
-     <div className='w-full flex flex-col lg:flex-row justify-between my-11 gap-3'>
+     <div className='w-full flex flex-col lg:flex-row my-11 gap-3'>
 
 
-          <div className='card first rounded-lg my-4 bg-gray-200' >
+          <div className='card first rounded-lg hidden lg:flex my-4 bg-gray-200' >
              <img  src={dash1} alt=""/>
           </div>
-
 
 
 
@@ -42,7 +41,7 @@ const ImgSection = () => {
 
 
 
-          <div className='card third my-4 rounded-lg bg-gray-200'>
+          <div className='card third my-4 hidden lg:flex rounded-lg bg-gray-200'>
              <img src={dash3} alt="" />
           </div>
 
