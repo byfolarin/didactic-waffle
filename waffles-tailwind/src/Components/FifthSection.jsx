@@ -48,7 +48,7 @@ const FifthSection = () => {
 
                 <div className='flex gap-3 items-center'>
                 <div className='w-6 h-2 rounded bg-black'></div>
-                <p>Project and long term planning</p>
+                <p>Pricing</p>
                 </div>
 
                 <h2 className='font-sans font-semibold text-5xl py-6'>Works where your team already is</h2>
