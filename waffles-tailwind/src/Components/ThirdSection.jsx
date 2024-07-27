@@ -4,9 +4,9 @@ import one from '../assets/Frame 87.png'
 const ThirdSection = () => {
   return (
     <div>
-      <div className='flex-col lg:flex my-24 gap-4 '>
+      <div className='flex-col gap-6  lg:flex my-24 '>
 
-            <div className='w-1/4'>
+            <div className='w-full py-4 lg:w-1/4'>
                 <img src={one} className='size-10' alt="" />
                 <div className='mt-2'>
                 <h2 className='font-semibold text-lg'>Manage incoming works</h2>
@@ -14,7 +14,7 @@ const ThirdSection = () => {
                 </div>
             </div>
 
-            <div className='w-1/4'>
+            <div className='w-full py-4  lg:w-1/4'>
                 <img src={one} className='size-10' alt="" />
                 <div className='mt-2'>
                 <h2 className='font-semibold text-lg'>Build momentum </h2>
@@ -23,7 +23,7 @@ const ThirdSection = () => {
             </div>
 
 
-            <div className='w-1/4'>
+            <div className='w-full py-4  lg:w-1/4'>
                 <img src={one} className='size-10' alt="" />
                 <div className='mt-2'>
                 <h2 className='font-semibold text-lg'>Tailored workflows</h2>
@@ -31,7 +31,7 @@ const ThirdSection = () => {
                 </div>
             </div>
 
-            <div className='w-1/4'>
+            <div className='w-full py-4  lg:w-1/4'>
                 <img src={one} className='size-10' alt="" />
                 <div className='mt-2'>
                 <h2 className='font-semibold text-lg'>Custom views</h2>
