@@ -13,7 +13,7 @@ const H1comp = () => {
       </p>
     </div>
     <div className='flex justify-center'>
-      <img src={Support} alt="logo for blank" className='w-full max-w-4xl mx-auto' />
+      <img src={Support} alt="logo for blank" className='w-[1260px] mx-auto' />
     </div>
   </div>
   )
