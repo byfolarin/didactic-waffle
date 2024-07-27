@@ -8,6 +8,7 @@ import SecondSection from './Components/SecondSection'
 import ThirdSection from './Components/ThirdSection'
 import FourthSection from './Components/FourthSection'
 import FifthSection from './Components/FifthSection'
+import PricingCards from './Components/PricingCards'
 import Footer from './Components/Footer'
 
 
@@ -28,7 +29,9 @@ function App() {
     <ThirdSection />
     <FourthSection />
     <FifthSection />
+    <PricingCards />
     <Footer />
+ 
 
     
 
