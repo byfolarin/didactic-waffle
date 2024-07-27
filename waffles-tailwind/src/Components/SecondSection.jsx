@@ -8,7 +8,7 @@ const SecondSection = () => {
             <div className='mt-24 flex-col lg:flex items-center justify-center'>      
             <h2 className='font-sans font-semibold text-5xl w-3/5 py-6'>Streamlining Process, Easily</h2>
             
-            <p className='w-3/4'>Align your team around a unified product timeline. Plan, manage, and track all product initiatives with Linear’s visual planning tools</p>
+            <p className='w-full'>Align your team around a unified product timeline. Plan, manage, and track all product initiatives with Linear’s visual planning tools</p>
             </div>
 
             <div className='w-full'>

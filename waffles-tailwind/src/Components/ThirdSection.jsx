@@ -4,7 +4,7 @@ import one from '../assets/Frame 87.png'
 const ThirdSection = () => {
   return (
     <div>
-      <div className='flex my-24 gap-4 '>
+      <div className='flex-col lg:flex my-24 gap-4 '>
 
             <div className='w-1/4'>
                 <img src={one} className='size-10' alt="" />
