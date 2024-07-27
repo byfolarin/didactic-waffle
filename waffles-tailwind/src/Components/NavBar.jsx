@@ -1,20 +1,30 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Logo from '../assets/Blank.png'
 import Dropdown from './Dropdown'
 
 const NavBar = () => {
+
+  const [isHovered, setIsHovered] = useState(false);
+
+
+  const onMouseEnter= ()=>{() => setIsHovered(true)}
+  const onMouseLeave= ()=>{() => setIsHovered(false)}
+
+
+
+
   return (
     <div className='hidden sm:hidden md:hidden lg:flex  items-center justify-between relative'>
 
       <img src={Logo} alt="logo for blank" className='w-20 '/>
 
       <div>
-        <ul className='flex gap-5 text-gray-700 font-normal hover:text-black '>
-            <li className='cursor-pointer'>Product</li>
-            <li className='cursor-pointer'>Use Case</li>
-            <li className='cursor-pointer'>Integration</li>
-            <li className='cursor-pointer'>Resources</li>
-            <li className='cursor-pointer'>Pricing</li>
+        <ul className='flex gap-5 text-gray-700 font-normal'>
+            <li className='cursor-pointer  text-gray-700 font-normal hover:text-black '>Product</li>
+            <li className='cursor-pointer  text-gray-700 font-normal hover:text-black '>Use Case <div></div></li>
+            <li className='cursor-pointer  text-gray-700 font-normal hover:text-black '>Integration</li>
+            <li className='cursor-pointer  text-gray-700 font-normal hover:text-black '>Resources</li>
+            <li className='cursor-pointer  text-gray-700 font-normal hover:text-black '>Pricing</li>
         </ul>
       </div>
 
