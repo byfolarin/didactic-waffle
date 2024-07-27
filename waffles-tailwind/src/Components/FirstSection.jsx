@@ -15,7 +15,7 @@ const FirstSection = () => {
                     </div>
 
                 <h2 className='font-sans font-semibold text-5xl w-3/5 py-6'>Made for Infrastructure<br/>Development</h2>
-                <p className='w-2/4'>Align your team around a unified product timeline. Plan, manage, and track all product initiatives with Linear’s visual planning tools</p>
+                <p className='w-full lg:w-2/4'>Align your team around a unified product timeline. Plan, manage, and track all product initiatives with Linear’s visual planning tools</p>
                 </div>
 
                 <div className='w-full'>
