@@ -8,13 +8,13 @@ import Stack from '../assets/Stacks.png'
 const ImgSection = () => {
   return (
     <div>
-     <div className='w-full flex-col gap-7 justify-between  h-96 my-11 relative'>
+     <div className='w-full grid grid-cols-4 gap-7 justify-between  h-96 my-11 relative'>
 
           <div className='card first rounded-lg  bg-gray-200' >
              <img  src={dash1} alt=""/>
           </div>
 
-          <div className='card second relative rounded-lg bg-gray-200 w-full h-full overflow-hidden'>
+          <div className='card second col-span-2 relative rounded-lg bg-gray-200 w-full h-full overflow-hidden'>
 
           <img src={dash2} alt="" className="object-cover w-full h-full" />
 
