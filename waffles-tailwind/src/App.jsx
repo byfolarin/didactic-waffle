@@ -11,6 +11,7 @@ import FifthSection from './Components/FifthSection'
 import PricingCards from './Components/PricingCards'
 import Footer from './Components/Footer'
 import Sixth from './Components/Sixth'
+import MenuIcon from './Components/MenuIcon'
 
 
 
@@ -18,6 +19,8 @@ import Sixth from './Components/Sixth'
 function App() {
   return (
     <div className='mx-auto overflow-hidden md:mx-3 lg:mx-32'>
+
+     <MenuIcon />
 
     <div className="flex  w-full " >
     <img src={Mesh} className='absolute top-0 bottom-0 left-0 right-0' alt="" />
