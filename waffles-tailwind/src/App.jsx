@@ -15,7 +15,7 @@ import Footer from './Components/Footer'
 
 function App() {
   return (
-    <div className='mx-32 sm:mx-3 md:mx-3 lg:mx-32'>
+    <div className='mx-2 sm:mx-3 md:mx-3 lg:mx-32'>
 
     <div className="flex  w-full " >
     <img src={Mesh} className='absolute top-0 bottom-0 left-0 right-0' alt="" />
