@@ -12,7 +12,7 @@ const NavBar = () => {
       <div>
         <ul className='flex gap-5 text-gray-700 font-normal'>
           <li className='cursor-pointer text-gray-700 font-normal hover:text-black'>Product</li>
-          
+
           <li 
             className='cursor-pointer text-gray-700 font-normal hover:text-black relative'
             onMouseEnter={() => setIsHovered(true)}
@@ -20,11 +20,12 @@ const NavBar = () => {
           >
             Use Case
             {isHovered && (
-              <div className="absolute top-full left-0 mt-2 w-screen">
+              <div className="absolute z-50 top-full left-2/2  mt-2 mx-auto w-screen">
                 <Dropdown />
               </div>
             )}
           </li>
+          
           <li className='cursor-pointer text-gray-700 font-normal hover:text-black'>Integration</li>
           <li className='cursor-pointer text-gray-700 font-normal hover:text-black'>Resources</li>
           <li className='cursor-pointer text-gray-700 font-normal hover:text-black'>Pricing</li>
