@@ -11,13 +11,13 @@ const ImgSection = () => {
      <div className='w-full flex flex-col lg:flex-row my-11 gap-3'>
 
 
-          <div className='card first rounded-lg hidden lg:flex my-4 bg-gray-200' >
+          <div className='card first rounded-lg lg:w-1/3 hidden lg:flex my-4 bg-gray-200' >
              <img  src={dash1} alt=""/>
           </div>
 
 
 
-          <div className='card second  relative rounded-lg my-4 bg-gray-200 overflow-hidden'>
+          <div className='card second w-full lg:w-1/3 relative rounded-lg my-4 bg-gray-200 overflow-hidden'>
 
                 <img src={dash2} alt="" className="object-cover w-full h-full" />
 
@@ -41,7 +41,7 @@ const ImgSection = () => {
 
 
 
-          <div className='card third my-4 hidden lg:flex rounded-lg bg-gray-200'>
+          <div className='card third my-4 hidden lg:w-1/3 lg:flex rounded-lg bg-gray-200'>
              <img src={dash3} alt="" />
           </div>
 
