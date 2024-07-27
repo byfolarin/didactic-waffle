@@ -3,7 +3,7 @@ import Support from '../assets/Frame 110.png'
 
 const H1comp = () => {
   return (
-    <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
+    <div className='container mx-auto sm:px-6 lg:px-8'>
           
         <div className='text-left py-12 sm:py-16 md:py-20 lg:py-24 lg:text-center relative'>
 

@@ -12,6 +12,7 @@ import PricingCards from './Components/PricingCards'
 import Footer from './Components/Footer'
 import Sixth from './Components/Sixth'
 import MenuIcon from './Components/MenuIcon'
+import Logo from './assets/Blank.png'
 
 
 
@@ -20,7 +21,17 @@ function App() {
   return (
     <div className='mx-auto overflow-hidden md:mx-3 lg:mx-32'>
 
-     <MenuIcon />
+      <div className='flex justify-between items-center'>
+
+    <div className='sm:hidden'>
+    <img src={Logo} alt="logo for blank" className='w-20'/>
+    </div>
+
+
+    <MenuIcon />
+    </div>
+
+ 
 
     <div className="flex  w-full " >
     <img src={Mesh} className='absolute top-0 bottom-0 left-0 right-0' alt="" />
