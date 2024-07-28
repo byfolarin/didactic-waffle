@@ -1,6 +1,10 @@
 import React from 'react'
 import Stack from '../assets/Stacks.png'
 import Stack1 from '../assets/Stack1.png'
+import Stack2 from '../assets/Stack2.png'
+import Stack3 from '../assets/Stack3.png'
+import Stack4 from '../assets/Stack4.png'
+import Stack5 from '../assets/Stack5.png'
 
 const Dropdown = () => {
   return (
@@ -11,7 +15,7 @@ const Dropdown = () => {
 
                 <div className='flex gap-2 py-4 '>
                         <div className="div-icons w-12 h-12 rounded-lg bg-black">
-                        <img className='size-7 m-auto'  src={Stack} alt="" />
+                        <img className='size-7 my-2 mx-auto'  src={Stack} alt="" />
                         </div>
 
                         <div>
@@ -23,7 +27,7 @@ const Dropdown = () => {
                     <div className='flex gap-2 py-4 '>
 
                         <div className="div-icons w-12 h-12 rounded-lg bg-black">
-                        <img className='size-7 my-1 mx-auto'  src={Stack1} alt="" />
+                        <img className='size-7 my-2 mx-auto'  src={Stack1} alt="" />
                         </div>
 
                         <div>
@@ -35,7 +39,7 @@ const Dropdown = () => {
                     <div className='flex gap-2 py-4 '>
 
                         <div className="div-icons w-12 h-12 rounded-lg bg-black">
-                              <img className='size-9 my-1 mx-auto'  src={Stack} alt="" />
+                        <img className='size-7 my-2 mx-auto'  src={Stack2} alt="" />
                         </div>
 
                         <div>
@@ -48,7 +52,9 @@ const Dropdown = () => {
 
 <div>
   <div className='flex gap-2 py-4 '>
-          <div className="div-icons w-12 h-12 rounded-lg bg-black"></div>
+          <div className="div-icons w-12 h-12 rounded-lg bg-black">
+             <img className='size-7 my-2 mx-auto'  src={Stack3} alt="" />
+          </div>
           <div>
           <div className='font-medium'>Unified Data Management</div>
           <p className='text-gray-700'>The foundational infrastructure <br/> enabling your operations.</p>
@@ -56,7 +62,9 @@ const Dropdown = () => {
     </div>
 
     <div className='flex gap-2 py-4 '>
-          <div className="div-icons w-12 h-12 rounded-lg bg-black"></div>
+          <div className="div-icons w-12 h-12 rounded-lg bg-black">
+             <img className='size-7 my-2 mx-auto'  src={Stack4} alt="" />
+          </div>
           <div>
           <div className='font-medium'>Process Tracker</div>
           <p className=''>Tickets, requests, applications, <br/> done.</p>
@@ -64,7 +72,9 @@ const Dropdown = () => {
     </div>
 
     <div className='flex gap-2 py-4 '>
-          <div className="div-icons w-12 h-12 rounded-lg bg-black"></div>
+          <div className="div-icons w-12 h-12 rounded-lg bg-black">
+             <img className='size-7 my-2 mx-auto'  src={Stack5} alt="" />
+          </div>
           <div>
           <div className='font-medium'>Partner Portal</div>
           <p className='text-gray-700'>Upgrade your collaboration with <br/> partners, prospects and vendor.</p>
