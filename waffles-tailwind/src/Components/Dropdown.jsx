@@ -5,6 +5,9 @@ import Stack2 from '../assets/Stack2.png'
 import Stack3 from '../assets/Stack3.png'
 import Stack4 from '../assets/Stack4.png'
 import Stack5 from '../assets/Stack5.png'
+import Stack6 from '../assets/Stack6.png'
+import Stack7 from '../assets/Stack7.png'
+import Stack8 from '../assets/Stack8.png'
 
 const Dropdown = () => {
   return (
@@ -85,7 +88,9 @@ const Dropdown = () => {
 
 <div>
   <div className='flex gap-2 py-4 '>
-          <div className="div-icons w-12 h-12 rounded-lg bg-black"></div>
+          <div className="div-icons w-12 h-12 rounded-lg bg-black">
+                   <img className='size-7 my-2 mx-auto'  src={Stack6} alt="" />
+          </div>
           <div>
           <div className='font-medium'>Integrations and Automations</div>
           <p className='text-gray-700'>API calls and endpoints with a <br/> slick user experience.</p>
@@ -93,7 +98,9 @@ const Dropdown = () => {
     </div>
 
     <div className='flex gap-2 py-4 '>
-          <div className="div-icons w-12 h-12 rounded-lg bg-black"></div>
+          <div className="div-icons w-12 h-12 rounded-lg bg-black">
+             <img className='size-7 my-2 mx-auto'  src={Stack7} alt="" />
+          </div>
           <div>
           <div className='font-medium'>Database</div>
           <p className=''>Central collection where all <br/> infromation meets as a</p>
@@ -101,7 +108,9 @@ const Dropdown = () => {
     </div>
 
     <div className='flex gap-2 py-4 '>
-          <div className="div-icons w-12 h-12 rounded-lg bg-black"></div>
+          <div className="div-icons w-12 h-12 rounded-lg bg-black">
+                  <img className='size-7 my-2 mx-auto'  src={Stack8} alt="" />
+          </div>
           <div>
           <div className='font-medium'>Collaboration</div>
           <p className='text-gray-700'>Collaboration with merchants, <br/> vendor and prospective B2C.</p>
