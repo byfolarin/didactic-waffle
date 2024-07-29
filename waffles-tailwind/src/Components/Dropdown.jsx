@@ -12,7 +12,7 @@ import Stack8 from '../assets/Stack8.png'
 const Dropdown = () => {
   return (
     <>
-       <div className='border-dropdown w-full flex flex-col lg:flex-row items-center justify-between mt-4 px-9 py-7 rounded-2xl' id='border-dropdown'>
+       <div className=' w-full flex flex-col lg:flex-row items-center justify-between  px-9 py-7 rounded-2xl' id='border-dropdown'>
 
         <div >
                <div className='flex gap-2 py-4 '>
