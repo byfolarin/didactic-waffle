@@ -16,7 +16,7 @@ const Dropdown = () => {
 
         <div >
 
-                <div className='flex gap-2 py-4 '>
+               <div className='flex gap-2 py-4 '>
                         <div className="div-icons w-12 h-12 rounded-lg bg-black">
                         <img className='size-7 my-2 mx-auto'  src={Stack} alt="" />
                         </div>
