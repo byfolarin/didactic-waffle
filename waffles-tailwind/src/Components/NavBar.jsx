@@ -5,7 +5,7 @@ import MenuIcon from './MenuIcon';
 
 const NavBar = () => {
   const [isHovered, setIsHovered] = useState(false);
-  
+
 
   return (
     <div className=' relative sm:hidden md:hidden lg:block'>
@@ -43,13 +43,7 @@ const NavBar = () => {
       )}
 
 
-      {isHovered && (
-        <div className="absolute left-0 right-0 mt-2 flex justify-center">
-          <div className="w-full z-10 max-w-7xl">
-            <MenuIcon />
-          </div>
-        </div>
-      )}
+
     </div>
   )
 }
