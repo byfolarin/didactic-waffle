@@ -6,12 +6,12 @@ const NavBar = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <div className='hidden sm:hidden md:hidden lg:block relative'>
-      <div className='flex items-center justify-between'>
-        <img src={Logo} alt="logo for blank" className='w-20'/>
+    <div className=' sm:hidden md:hidden lg:block relative'>
+      <div className='flex flex-col   lg:flex lg:flex-row lg:items-center lg:justify-between'>
+        <img src={Logo} alt="logo for blank" className='w-20 hidden lg:block'/>
 
-        <div>
-          <ul className='flex gap-5 text-gray-700 font-normal'>
+        <div className='my-8 bg-[#f4f4f4] border border-'>
+          <ul className='flex flex-col  lg:flex lg:flex-row gap-5 text-gray-700 font-normal'>
             <li className='cursor-pointer text-gray-700 font-normal hover:text-black'>Product</li>
             <li 
               className='cursor-pointer text-gray-700 font-normal hover:text-black'
@@ -26,7 +26,7 @@ const NavBar = () => {
           </ul>
         </div>
 
-        <div className='flex items-center gap-5'>
+        <div className='flex flex-col items-left lg:items-center lg:flex-row gap-5'>
           <button>Sign In</button>
           <button className='bg-black text-white px-4 py-2 rounded-lg'>Try Starter for free</button>
         </div>
