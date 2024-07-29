@@ -21,14 +21,14 @@ function App() {
   return (
     <div className='mx-auto overflow-hidden md:mx-3 lg:mx-32'>
 
-      <div className='flex justify-between items-center'>
+          <div className='flex justify-between items-center'>
 
-    <div className='sm:hidden'>
-    <img src={Logo} alt="logo for blank" className='w-20'/>
-    </div>
+        <div className='sm:hidden lg:hidden'>
+        <img src={Logo} alt="logo for blank" className='w-20'/>
+        </div>
 
 
-    <MenuIcon />
+        <MenuIcon />
     </div>
 
  
