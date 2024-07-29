@@ -13,7 +13,7 @@ const Sixth = () => {
 
             <h2 className='font-sans font-semibold text-center text-5xl py-6 '>Works where your team already is</h2>
 
-            <p className='w-3/4 flex text-center justify-center items-center'>Align your team around a unified product timeline. Plan, manage, and track all product initiatives with Blank’s visual planning tools
+            <p className=' flex text-center justify-center items-center'>Align your team around a unified product timeline. Plan, manage, and track all product initiatives with Blank’s visual planning tools
             </p>
 
            

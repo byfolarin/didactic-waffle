@@ -56,7 +56,7 @@ const Dropdown = () => {
 <div>
   <div className='flex gap-2 py-4 '>
           <div className="div-icons w-12 h-12 rounded-lg bg-black">
-             <img className='size-7 my-2 mx-auto'  src={Stack3} alt="" />
+             <img className='w-8 h-7 my-2 mx-auto'  src={Stack3} alt="" />
           </div>
           <div>
           <div className='font-medium'>Unified Data Management</div>
@@ -66,7 +66,7 @@ const Dropdown = () => {
 
     <div className='flex gap-2 py-4 '>
           <div className="div-icons w-12 h-12 rounded-lg bg-black">
-             <img className='size-7 my-2 mx-auto'  src={Stack4} alt="" />
+             <img className='w-9 h-5 my-3 mx-auto'  src={Stack4} alt="" />
           </div>
           <div>
           <div className='font-medium'>Process Tracker</div>
@@ -76,7 +76,7 @@ const Dropdown = () => {
 
     <div className='flex gap-2 py-4 '>
           <div className="div-icons w-12 h-12 rounded-lg bg-black">
-             <img className='size-7 my-2 mx-auto'  src={Stack5} alt="" />
+             <img className='w-6 h-7 my-2 mx-auto'  src={Stack5} alt="" />
           </div>
           <div>
           <div className='font-medium'>Partner Portal</div>
@@ -89,7 +89,7 @@ const Dropdown = () => {
 <div>
   <div className='flex gap-2 py-4 '>
           <div className="div-icons w-12 h-12 rounded-lg bg-black">
-                   <img className='size-7 my-2 mx-auto'  src={Stack6} alt="" />
+                   <img className='w-8 h-7 my-2 mx-auto'  src={Stack6} alt="" />
           </div>
           <div>
           <div className='font-medium'>Integrations and Automations</div>
@@ -99,7 +99,7 @@ const Dropdown = () => {
 
     <div className='flex gap-2 py-4 '>
           <div className="div-icons w-12 h-12 rounded-lg bg-black">
-             <img className='size-7 my-2 mx-auto'  src={Stack7} alt="" />
+             <img className='w-9 h-5 my-2 mx-auto'  src={Stack7} alt="" />
           </div>
           <div>
           <div className='font-medium'>Database</div>
