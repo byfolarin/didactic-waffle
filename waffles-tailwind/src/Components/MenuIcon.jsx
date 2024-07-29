@@ -16,7 +16,6 @@ const MenuIcon = () => {
     </svg>
     </div>
 
-    <NavBar display={display} setDisplay={setDisplay}/>
 
     </div>
 
