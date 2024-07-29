@@ -1,13 +1,15 @@
 import React, { useState } from 'react'
 import Logo from '../assets/Blank.png'
 import Dropdown from './Dropdown'
+import MenuIcon from './MenuIcon';
 
 const NavBar = () => {
   const [isHovered, setIsHovered] = useState(false);
+  
 
   return (
     <div className=' relative sm:hidden md:hidden lg:block'>
-      <div className='flex flex-col  px-4 py-3  bg-[#f4f4f4] border border-[#ffffff] rounded-lg lg:flex lg:flex-row lg:items-center lg:justify-between'>
+      <div className='flex flex-col  px-4 py-3 lg:p-0  bg-[#f4f4f4] border border-[#ffffff] lg:border-none rounded-lg lg:flex lg:flex-row lg:items-center lg:justify-between'>
         <img src={Logo} alt="logo for blank" className='w-20 hidden lg:block'/>
 
         <div className='my-4 '>
@@ -36,6 +38,15 @@ const NavBar = () => {
         <div className="absolute left-0 right-0 mt-2 flex justify-center">
           <div className="w-full z-10 max-w-7xl">
             <Dropdown />
+          </div>
+        </div>
+      )}
+
+
+      {isHovered && (
+        <div className="absolute left-0 right-0 mt-2 flex justify-center">
+          <div className="w-full z-10 max-w-7xl">
+            <MenuIcon />
           </div>
         </div>
       )}
