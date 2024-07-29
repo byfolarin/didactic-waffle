@@ -14,9 +14,12 @@ const MenuIcon = () => {
             <path d="M3 12H21" stroke="#292D32" stroke-width="1.5" stroke-linecap="round"/>
             <path d="M3 17H21" stroke="#292D32" stroke-width="1.5" stroke-linecap="round"/>
     </svg>
+
+    {display && <NavBar/>} 
+    
     </div>
 
-
+   
     </div>
 
 
