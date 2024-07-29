@@ -7,10 +7,10 @@ const NavBar = () => {
 
   return (
     <div className=' sm:hidden md:hidden lg:block relative'>
-      <div className='flex flex-col   lg:flex lg:flex-row lg:items-center lg:justify-between'>
+      <div className='flex flex-col  px-4 py-3  bg-[#f4f4f4] border border-[#ffffff] rounded-lg lg:flex lg:flex-row lg:items-center lg:justify-between'>
         <img src={Logo} alt="logo for blank" className='w-20 hidden lg:block'/>
 
-        <div className='my-8 bg-[#f4f4f4] border border-'>
+        <div className='my-4 '>
           <ul className='flex flex-col  lg:flex lg:flex-row gap-5 text-gray-700 font-normal'>
             <li className='cursor-pointer text-gray-700 font-normal hover:text-black'>Product</li>
             <li 
