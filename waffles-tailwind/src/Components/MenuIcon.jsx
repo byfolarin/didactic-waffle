@@ -1,10 +1,7 @@
 import React, { useState } from 'react'
 
 const MenuIcon = () => {
-
-  const [display, setDisplay] = useState(false)
-
-
+  const [display, setDisplay] = useState(false);
 
   return (
     <div className='lg:hidden'>
@@ -14,7 +11,13 @@ const MenuIcon = () => {
             <path d="M3 17H21" stroke="#292D32" stroke-width="1.5" stroke-linecap="round"/>
     </svg>
 
+
+    {display && <NavMenu />}
+
     </div>
+
+
+
   )
 }
 
