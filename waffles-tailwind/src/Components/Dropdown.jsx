@@ -99,7 +99,7 @@ const Dropdown = () => {
 
     <div className='flex gap-2 py-4 '>
           <div className="div-icons w-12 h-12 rounded-lg bg-black">
-             <img className='w-9 h-5 my-2 mx-auto'  src={Stack7} alt="" />
+             <img className='w-9 h-6 my-3 mx-auto'  src={Stack7} alt="" />
           </div>
           <div>
           <div className='font-medium'>Database</div>
