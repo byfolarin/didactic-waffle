@@ -43,7 +43,6 @@ function App() {
     <FifthSection />
     <PricingCards />
     <Sixth />
-    <Sixth />
     <Footer />
  
 
