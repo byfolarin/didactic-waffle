@@ -26,12 +26,9 @@ function App() {
         <div className='sm:hidden lg:hidden'>
         <img src={Logo} alt="logo for blank" className='w-20'/>
         </div>
-
-
         <MenuIcon />
-    </div>
 
- 
+    </div>
 
     <div className="flex  w-full " >
     <img src={Mesh} className='absolute top-0 bottom-0 left-0 right-0' alt="" />
@@ -45,6 +42,7 @@ function App() {
     <FourthSection />
     <FifthSection />
     <PricingCards />
+    <Sixth />
     <Sixth />
     <Footer />
  
