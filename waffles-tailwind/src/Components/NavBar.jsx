@@ -6,8 +6,6 @@ import MenuIcon from './MenuIcon';
 const NavBar = () => {
 
   const [isHovered, setIsHovered] = useState(false);
- 
-
 
   return (
     <div  className='relative sm:hidden md:hidden lg:block' >
@@ -18,6 +16,7 @@ const NavBar = () => {
         <div className='my-4 '>
           <ul className='flex flex-col  lg:flex lg:flex-row gap-5 text-gray-700 font-normal'>
             <li className='cursor-pointer text-gray-700 font-normal hover:text-black'>Product</li>
+            
             <li 
               className='cursor-pointer text-gray-700 font-normal hover:text-black'
               onMouseEnter={() => setIsHovered(true)}

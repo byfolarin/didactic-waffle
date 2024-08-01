@@ -13,11 +13,27 @@ import Footer from './Components/Footer'
 import Sixth from './Components/Sixth'
 import MenuIcon from './Components/MenuIcon'
 import Logo from './assets/Blank.png'
+import { useState } from 'react'
+
 
 
 
 
 function App() {
+
+  const [isNavOpen, setIsNavOpen] = useState(false);
+
+
+  const openNav = () => {
+    setIsNavOpen(true);
+  };
+
+  const closeNav = () => {
+    setIsNavOpen(false);
+  };
+
+
+
   return (
     <div className='mx-auto overflow-hidden md:mx-3 lg:mx-32'>
 
@@ -26,14 +42,16 @@ function App() {
         <div className='sm:hidden lg:hidden'>
         <img src={Logo} alt="logo for blank" className='w-20'/>
         </div>
-        <MenuIcon />
+        <MenuIcon openNav = {openNav} />
 
     </div>
 
     <div className="flex  w-full " >
     <img src={Mesh} className='absolute top-0 bottom-0 left-0 right-0' alt="" />
     </div>
-    <NavBar/>
+
+    {isNavOpen && <NavBar closeNav={closeNav}/>}
+
     <H1comp/>
     <ImgSection/>
     <FirstSection />

@@ -19,7 +19,7 @@ const ImgSection = () => {
 
           <div className='card second w-full lg:w-1/3 relative rounded-lg my-4 bg-gray-200 overflow-hidden'>
 
-                <img src={dash2} alt="" className="object-cover w-full h-full" />
+                <img src={dash2}  alt="" className="object-cover w-full h-full" />
 
                     <div className='absolute inset-0 p-2 flex items-end'>
 
