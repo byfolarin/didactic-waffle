@@ -19,9 +19,10 @@ const FirstSection = () => {
                 </div>
 
                 <div className='w-full'>
-                <div className='relative'>
-                <div className='bg-gradient-to-t left-0 top-0 absolute from-[#f6f6f690] to-transparent w-full h-full'></div>
-                <img src={HiDef} alt=""  className='w-128'/>
+                <div className='relative  '>
+                    <div className='bg-gradient-to-t left-0 top-0 absolute from-[#f6f6f690] to-transparent w-full h-full'></div>
+
+                    <img src={HiDef} alt=""  className='object-fill '/>
                 </div>
                 </div>
 
