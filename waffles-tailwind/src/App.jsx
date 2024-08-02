@@ -47,17 +47,19 @@ function App() {
 
     </div>
 
-    {/* <div className="flex  w-full " >
-    <img src={Mesh} className='absolute top-0 bottom-0 left-0 right-0' alt="" />
-    </div> */}
+   
 
           <div className='hidden lg:block'>
           <NavBar/>
           </div>
 
          
-      <div className='lg:hidden cursor-pointer absolute z-30 w-[90%]'>
+      <div className='lg:hidden cursor-pointer pt-4 absolute z-30 w-[88%]'>
         {isNavOpen && <NavBar closeNav={closeNav} />}
+      </div>
+
+      <div className="flex  w-full " >
+          <img src={Mesh} className='absolute z-[-10] top-0 bottom-0 left-0 right-0' alt="" />
       </div>
 
 
