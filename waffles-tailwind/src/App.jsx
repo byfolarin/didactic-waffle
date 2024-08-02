@@ -26,12 +26,13 @@ function App() {
 
   const openNav = () => {
     setIsNavOpen(true);
+    console.log('Nav opened'); // Debug log
   };
 
   const closeNav = () => {
     setIsNavOpen(false);
+    console.log('Nav closed'); // Debug log
   };
-
 
 
   return (
@@ -39,7 +40,7 @@ function App() {
 
           <div className='flex justify-between items-center'>
 
-        <div className='sm:hidden lg:hidden'>
+        <div className='lg:hidden'>
         <img src={Logo} alt="logo for blank" className='w-20'/>
         </div>
         <MenuIcon openNav = {openNav} />
@@ -50,7 +51,15 @@ function App() {
     <img src={Mesh} className='absolute top-0 bottom-0 left-0 right-0' alt="" />
     </div>
 
-    {isNavOpen && <NavBar closeNav={closeNav}/>}
+          <div className='hidden lg:block'>
+          <NavBar closeNav={closeNav}/>
+          </div>
+
+         
+      <div className='lg:hidden'>
+        {isNavOpen && <NavBar closeNav={closeNav} />}
+      </div>
+
 
     <H1comp/>
     <ImgSection/>
