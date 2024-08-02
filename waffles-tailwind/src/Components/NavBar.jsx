@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import Logo from '../assets/Blank.png'
 import Dropdown from './Dropdown'
-import MenuIcon from './MenuIcon';
+import CloseIcon from './CloseIcon'
 
-const NavBar = () => {
+const NavBar = ({closeNav}) => {
 
   const [isHovered, setIsHovered] = useState(false);
 
@@ -11,6 +11,11 @@ const NavBar = () => {
     <div  className='relative' >
       <div className='flex flex-col  px-4 py-3 lg:p-0  bg-[#f4f4f4] border border-[#ffffff] lg:border-none rounded-lg lg:flex lg:flex-row lg:items-center lg:justify-between'>
         
+
+      <div className='flex justify-end pt-4 lg:hidden'>
+      <CloseIcon closeNav={closeNav} />
+      </div>
+
         <img src={Logo} alt="logo for blank" className='w-20 hidden lg:block'/>
 
         <div className='my-4 '>

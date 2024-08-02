@@ -29,10 +29,10 @@ function App() {
     console.log('Nav opened'); // Debug log
   };
 
-  // const closeNav = () => {
-  //   setIsNavOpen(false);
-  //   console.log('Nav closed'); // Debug log
-  // };
+  const closeNav = () => {
+    setIsNavOpen(false);
+    console.log('Nav closed'); // Debug log
+  };
 
 
   return (
@@ -57,7 +57,7 @@ function App() {
 
          
       <div className='lg:hidden cursor-pointer'>
-        {isNavOpen && <NavBar openNav={openNav} />}
+        {isNavOpen && <NavBar closeNav={closeNav} />}
       </div>
 
 
