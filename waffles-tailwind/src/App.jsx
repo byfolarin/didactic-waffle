@@ -29,10 +29,10 @@ function App() {
     console.log('Nav opened'); // Debug log
   };
 
-  const closeNav = () => {
-    setIsNavOpen(false);
-    console.log('Nav closed'); // Debug log
-  };
+  // const closeNav = () => {
+  //   setIsNavOpen(false);
+  //   console.log('Nav closed'); // Debug log
+  // };
 
 
   return (
@@ -47,17 +47,17 @@ function App() {
 
     </div>
 
-    <div className="flex  w-full " >
+    {/* <div className="flex  w-full " >
     <img src={Mesh} className='absolute top-0 bottom-0 left-0 right-0' alt="" />
-    </div>
+    </div> */}
 
           <div className='hidden lg:block'>
-          <NavBar closeNav={closeNav}/>
+          <NavBar/>
           </div>
 
          
-      <div className='lg:hidden'>
-        {isNavOpen && <NavBar closeNav={closeNav} />}
+      <div className='lg:hidden cursor-pointer'>
+        {isNavOpen && <NavBar openNav={openNav} />}
       </div>
 
 
