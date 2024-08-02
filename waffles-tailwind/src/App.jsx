@@ -54,7 +54,7 @@ function App() {
           </div>
 
          
-      <div className='lg:hidden cursor-pointer pt-4 absolute z-30 w-[88%]'>
+      <div className='lg:hidden cursor-pointer pt-4 absolute z-30 w-[94%]'>
         {isNavOpen && <NavBar closeNav={closeNav} />}
       </div>
 
